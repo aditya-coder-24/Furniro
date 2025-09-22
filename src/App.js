@@ -2,11 +2,11 @@ import React, { useState, useEffect, useCallback } from 'react';
 import './App.css';
 
 import logo from './logo.png';
-import shopBanner from './assets/shop-banner.jpg';
-import imgSyltherine from './assets/syltherine.png';
-import imgLeviosa from './assets/leviosa.png';
-import imgLolito from './assets/lolito.png';
-import imgRespira from './assets/respira.jpg';
+import shopBanner from './assests/shop-banner.jpg';
+import imgSyltherine from './assests/syltherine.png';
+import imgLeviosa from './assests/leviosa.png';
+import imgLolito from './assests/lolito.png';
+import imgRespira from './assests/respira.jpg';
 
 const initialProducts = [
     { id: 1, name: 'Syltherine', brand: 'Syltherine', category: 'Chair', desc: 'Modern and elegant cafe chair', price: 2500000, oldPrice: 3500000, tag: '-30%', tagColor: 'bg-red-500', img: imgSyltherine },
